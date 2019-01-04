@@ -3,9 +3,8 @@
   "version": "0.1.6",
   "description": "Statismic Documentations",
   "scripts": {
-    "docs:dev": "vuepress dev .",
-    "docs:build": "vuepress build --dest=dist .",
-    "docs:publish": "git add dist && git commit -m 'Updated' && git subtree push --prefix dist origin gh-pages"
+    "dev": "vuepress dev .",
+    "build": "vuepress build --dest=dist ."
   },
   "devDependencies": {
     "vuepress": "^0.14.8"
