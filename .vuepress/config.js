@@ -1,6 +1,7 @@
 module.exports = {
     title: 'Statismic Plots',
     description: 'Documentation for Statismic Plots',
+    base: '/docs/',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
