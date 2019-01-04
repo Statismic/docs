@@ -3,6 +3,7 @@ module.exports = {
     description: 'Documentation for Statismic Plots',
     base: '/docs/',
     themeConfig: {
+        sidebar: 'auto',
         nav: [
             { text: 'Home', link: '/' },
             {
