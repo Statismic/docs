@@ -1,0 +1,3 @@
+# Plots
+
+- [Histogram](histogram.md)
