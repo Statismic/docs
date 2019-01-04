@@ -6,17 +6,27 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             {
-                text: 'Guides', link: '/guide/',
+                text: 'User Guides',
                 items: [
                     {
-                        text: 'Plots', link: '/guide/plots/'
+                        text: 'plots', link: '/guide/user/plots/'
                     },
                     {
-                        text: 'Components', link: '/guide/components/'
+                        text: 'components', link: '/guide/user/components/'
                     }
                 ]
             },
-
+            {
+                text: 'Dev Guides',
+                items: [
+                    {
+                        text: 'plots', link: '/guide/dev/plots/'
+                    },
+                    {
+                        text: 'components', link: '/guide/dev/components/'
+                    }
+                ]
+            },
         ]
     }
 }
