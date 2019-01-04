@@ -4,10 +4,10 @@
       label-x="X Label"
       label-y="Y Label"
       :data-x="xdata"
-      :interval="0.1"
-      style="height: 600px;"
+      interval="0.1"
+      style="height: 500px;"
     />
-    <button @click="add">Add</button>
+    <button @click="xdata.push(Math.random())">Add</button>
   </div>
 </template>
 
@@ -22,11 +22,6 @@ export default {
     return {
       xdata: [0.9]
     };
-  },
-  methods: {
-    add() {
-      this.xdata.push(Math.random());
-    }
   }
 };
 </script>
