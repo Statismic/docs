@@ -26,10 +26,15 @@ export default {
 };
 ```
 
+## Attributes
 
 |     Attribute     |                 Description                 | Required | Default |  Type  |
 |:------------------|:--------------------------------------------|:--------:|:-------:|:------:|
-|       range       |              min-max of data-x              |    no    |  [0,1]  |  Array |
 |      interval     |             each bar's interval             |    yes   |    -    | Number |
+|       range       |              min-max of data-x              |    no    |  [0,1]  |  Array |
 |     color-bar     |       color for bars in the histogram       |    no    | "green" | String |
 | color-highlighter | color for helper lines when you hover bars  |    no    | "black" | String |
+
+::: tip
+See also [common attributes](common.md)
+:::
