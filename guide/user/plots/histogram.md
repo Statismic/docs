@@ -1,4 +1,7 @@
 # Histogram
+
+## Example
+
 <ClientOnly>
 <histogram/>
 </ClientOnly>
